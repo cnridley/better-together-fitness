@@ -5,15 +5,12 @@
 
 .navbar {
     background-color: #00c5e8;
+    width: 100vw;
 }
 
 .logo {
     max-width: 200px;
     max-height: 200px;
-}
-
-.navigation {
-    margin-left: 500px;
 }
 
 .nav-link {/*-- increases font size of nav items and spaces them --*/
@@ -34,35 +31,3 @@
     font-size: 30px;
     color:white
 }
-
-@media only screen and (max-width: 1024px) { /*-- IPAD PRO --*/
-    .navigation {
-        margin-left: 60px;
-    }
-}
-
-@media only screen and (max-width: 768px) { /*-- IPAD AND SMALLER --*/
-     .navigation {
-        margin-left: 150px;
-    }
-
-    .nav-link { /*-- increases font size of nav items and spaces them --*/
-    font-size: 15px;
-    margin-left: 10px;
-    text-decoration: none;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    }
-
-    .logo {
-    max-width: 120px;
-    max-height: 120px;
-    }
-.NavButton {/*-- Changes color of fa-lines and increases size. --*/
-    font-size: 20px;
-    color:white
-    }
-}
-
-
-
