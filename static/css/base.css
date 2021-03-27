@@ -2,7 +2,9 @@
  font-family: 'Shadows Into Light Two', cursive; --*/
  
 /*-- CSS FOR NAV BAR --*/
-
+body {
+    width:100vw;
+}
 .navbar {
     background-color: #00c5e8;
     width: 100vw;
@@ -30,4 +32,121 @@
 .NavButton {/*-- Changes color of fa-lines and increases size. --*/
     font-size: 30px;
     color:white
+}
+
+.dropdown-menu {
+    background: none;
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #00c5e8;
+}
+
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    .logo {
+    max-width: 120px;
+    max-height: 120px;
+}
+.NavButton {/*-- Changes color of fa-lines and increases size. --*/
+    font-size: 20px;
+    color:white
+}
+.nav-link {/*-- increases font size of nav items and spaces them --*/
+    font-size: 12px;
+    margin-left: 60px;
+    text-decoration: none;
+    color:white;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover{ /*-- changes hover color --*/
+    color:#001f38;
+}
+.dropdown-item {
+    color: white;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #00c5e8;
+}
+}
+
+/*-- PICTURE FOR LARGE SCREENS --*/
+.LargeScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-image{
+    position: relative;
+}
+
+
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    .SmallScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: block;
+}
+.LargeScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+}
+
+/*-- SLOGAN FOR LARGE SCREENS --*/
+.slogan{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: left;
+}
+
+.TrainWithUs{
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 100px;
+    
+}
+
+.SmallScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    .SmallScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: block;
+}
+.LargeScreenPicture {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
 }
