@@ -81,7 +81,7 @@ body {
 /*-- PICTURE FOR LARGE SCREENS --*/
 .LargeScreenPicture { /*-- Picture of girls knelt will show on larger screens --*/
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -156,4 +156,38 @@ body {
 }
 }
 
+/*-- TOGETHER WE ARE BETTER TOGETHER SECTION --*/
+.sectionRow{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.sectionCol{
+    border: 15px solid white;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+.together {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #001f38;
+}
+
+.bluelogo {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.sectionCol2{
+    border: 15px solid white;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+li::-ms-ticks-before {
+    content: "\2713";
+}
 
