@@ -187,7 +187,7 @@ ul{
     list-style: none;
 }
 
-li::-ms-ticks-before {
+.listItem:before {
     content: "\2713";
 }
 
