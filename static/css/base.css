@@ -34,12 +34,12 @@ body {
     color:white
 }
 
-.dropdown-menu {
+.dropdown-menu { /*-- removes border and background  for dropdown menu list --*/
     background: none;
     border: none;
 }
 
-.dropdown-item {
+.dropdown-item { /*-- changes link items for the dropdown list  --*/
     color: white;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
@@ -69,7 +69,7 @@ body {
 .nav-link:hover{ /*-- changes hover color --*/
     color:#001f38;
 }
-.dropdown-item {
+.dropdown-item { /*-- changes link items for the dropdown list  --*/
     color: white;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
@@ -79,7 +79,7 @@ body {
 }
 
 /*-- PICTURE FOR LARGE SCREENS --*/
-.LargeScreenPicture {
+.LargeScreenPicture { /*-- Picture of girls knelt will show on larger screens --*/
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -87,23 +87,6 @@ body {
 
 .hero-image{
     position: relative;
-}
-
-
-/*-- for medium and small screens! --*/
-@media only screen and (max-width: 768px) {
-    .SmallScreenPicture {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: block;
-}
-.LargeScreenPicture {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: none;
-}
 }
 
 /*-- SLOGAN FOR LARGE SCREENS --*/
@@ -115,6 +98,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color:white;
     text-align: left;
+    width: 500px;
 }
 
 .TrainWithUs{
@@ -127,12 +111,12 @@ body {
     margin-right: 100px;
     
 }
-
+/*-- SMALL PICTURE ON LARGE SCREENS  --*/
 .SmallScreenPicture {
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: none;
+    display: none; /*-- Hides the images on ipad pro and bigger --*/
 }
 
 /*-- for medium and small screens! --*/
@@ -141,12 +125,35 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: block;
+    display: block; /*-- Shows the small screen image on smaller screens --*/
 }
 .LargeScreenPicture {
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: none;
+    display: none; /*-- hides the kneeling image on smaller screens --*/
+}
+/*-- SLOGAN FOR LARGE SCREENS --*/
+.slogan{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: left;
+    width: 400px;
+}
+
+.TrainWithUs{
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    
 }
 }
+
+
