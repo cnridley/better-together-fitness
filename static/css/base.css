@@ -152,7 +152,6 @@ body {
     border-radius: 10px;
     font-size: 12px;
     padding: 5px;
-    
 }
 }
 
@@ -165,6 +164,7 @@ body {
     border: 15px solid white;
     background-color: whitesmoke;
     padding: 25px;
+    text-align: center;
 }
 .together {
     font-family: 'Montserrat', sans-serif;
@@ -173,21 +173,89 @@ body {
 }
 
 .bluelogo {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 250px;
+    max-height: 250px;
+}
+.JoinUsToday{
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
 }
 
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    .together {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #001f38;
+}
+.sectionCol{
+    border: 15px solid white;
+    background-color: whitesmoke;
+    padding: 25px;
+    text-align: center;
+}
+.JoinUsToday{
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+}
+}
+
+/*-- WHAT TO EXPECT SECTION --*/
 .sectionCol2{
     border: 15px solid white;
     background-color: whitesmoke;
     padding: 25px;
+    text-align: center;
 }
 
 ul{
     list-style: none;
+    padding-left: 0;
 }
 
 .listItem:before {
     content: "\2713";
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #001f38;
+}
+.whatToExpect {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #001f38;
+}
+.listItem{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #001f38;
+}
+
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    .whatToExpect {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #001f38;
+}
+.listItem:before {
+    content: "\2713";
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+}
+
+.listItem{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+}
 }
 
