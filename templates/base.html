@@ -73,7 +73,7 @@
           Meet Your Trainers
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
-          <a class="dropdown-item" href="#">Sam Ridley</a>
+          <a class="dropdown-item" href="{% url 'sam' %}">Sam Ridley</a>
           <a class="dropdown-item" href="#">Heather Gaulton</a>
         </div>
       </li>
@@ -85,7 +85,14 @@
     {% block content %}
     {% endblock %}
 
-
+<footer>
+    <div class="row container-fluid">
+        <p class="footerPara">BETTER TOGETHER FITNESS</p>
+    </div>
+    <div class="row container-fluid">
+        <a href="" class="ChloePara">Designed and Developed by Chloe Ridley</a>
+    </div>
+</footer>
 </body>
 
 </html>
