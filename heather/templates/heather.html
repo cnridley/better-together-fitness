@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="row container-fluid sectionRow">
+    <p class="workoutWith">
+        WORK OUT WITH <span class="sam">HEATHER</span>
+    </p>
+    <p class="AboutPara">
+        My goal as a trainer is to help you feel the best you’ve ever felt, I
+        want you to feel happier and confident! I want you to enjoy fitness
+        and feel stronger not only physically but mentally. I know together we
+        can achieve anything.
+</p>
+</div>
+<div class="row container-fluid sectionRow">
+    <div class="col-sm-6 samRow">
+        <img src="{{ MEDIA_URL}}heather.jpg" alt="Personal Trainer Sam Ridley" class="samPhoto"> 
+    </div>
+    <div class="col-sm-6 EnjoyWithMe">
+        <p class="EnjoyWithMeTitle">Enjoy With Me:</p>
+        <ul>
+                <li class="samListItem">
+                    HIIT
+                </li>
+                <li class="samListItem">
+                    BOOTY WORKOUTS
+                </li>
+                <li class="samListItem">
+                    AB BLASTS
+                </li>
+                <li class="samListItem">
+                    UPPER BODY
+                </li>
+                <li class="samListItem">
+                    LISS
+                </li>
+                <li class="samListItem">
+                    CARDIO
+                </li>
+                <li class="samListItem">
+                    STRETCH
+                </li>
+                <li class="samListItem">
+                    CIRCUIT TRAINING
+                </li>
+            </ul>
+            <div class="row">
+                <button class="TrainWithSam">TRAIN WITH HEATHER</button>
+            </div>
+    </div>
+</div>
+
+{% endblock %}
