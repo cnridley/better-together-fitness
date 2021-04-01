@@ -303,6 +303,47 @@ ul{ /*-- removes bullet point list --*/
 }
 }
 
+/*-- TOGETHER WE ARE BETTER TOGETHER SECTION --*/
+.subCard{
+    border: 15px white solid;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+.JoinOurCom{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #001f38;
+    justify-content: center;
+}
+
+.options {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #001f38;
+    justify-content: center;
+}
+/*-- for medium and small screens!  SUBSCRIPTIONS INFO ON HOMEPAGE --*/
+@media only screen and (max-width: 768px) {
+    .subCard{
+    border: 15px white solid;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+.JoinOurCom{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #001f38;
+    justify-content: center;
+    text-align: center;
+}
+
+.options {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+    justify-content: center;
+}
+}
 /*-- CSS FOR SAMS PAGE --*/
 .samRow{ /*-- centres the image --*/
     margin: auto;
