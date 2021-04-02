@@ -312,8 +312,11 @@ ul{ /*-- removes bullet point list --*/
 .JoinOurCom{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    color: #001f38;
+    color: #00c5e8;
     justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
 }
 
 .options {
@@ -321,6 +324,11 @@ ul{ /*-- removes bullet point list --*/
     font-size: 22px;
     color: #001f38;
     justify-content: center;
+}
+
+.tabletImage {
+    width: 100%;
+    height: 100%;
 }
 /*-- for medium and small screens!  SUBSCRIPTIONS INFO ON HOMEPAGE --*/
 @media only screen and (max-width: 768px) {
@@ -332,9 +340,10 @@ ul{ /*-- removes bullet point list --*/
 .JoinOurCom{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    color: #001f38;
+    color: #00c5e8;
     justify-content: center;
     text-align: center;
+    padding-top: 20px;
 }
 
 .options {
