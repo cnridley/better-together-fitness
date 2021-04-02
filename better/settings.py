@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'home',
     'sam',
     'heather',
+    'guide',
 ]
 
 MIDDLEWARE = [
