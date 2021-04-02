@@ -507,3 +507,90 @@ ul{ /*-- removes bullet point list --*/
     text-align: center;
     margin-bottom: 15px;
 }
+
+.nutritionGuides{ /*-- eddit the nutritions guides col --*/
+    margin-bottom: 15px;
+    padding: 75px;
+}
+
+.title{ /*-- edits title of nutrition guides --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #001f38;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.desc{ /*-- edits description --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+}
+
+.price{ /*-- edits price --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+}
+
+.addToCart{ /*-- edits add to cart button --*/
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*-- for medium and small screens!  FOR THE NUTRITION GUIDES SECTION--*/
+@media only screen and (max-width: 768px) {
+    .guides { /*-- header --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #001f38;
+    text-decoration: underline;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.aboutGuides { /*-- the about guides paragraph --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.title{ /*-- edits title of nutrition guides --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #001f38;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.desc{ /*-- edits description --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #001f38;
+}
+
+.price{ /*-- edits price --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #001f38;
+}
+
+.addToCart{ /*-- edits add to cart button --*/
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+}

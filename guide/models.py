@@ -9,3 +9,12 @@ class Gallery(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class nutitionGuides(models.Model):
+    title = models.CharField(max_length=254, null=True, blank=True) 
+    description = models.TextField(max_length=254, null=True, blank=True)
+    price = models.DecimalField(decimal_places=2, null=True, blank=True, max_digits=100)
+
+    def __str__(self):
+        return self.title

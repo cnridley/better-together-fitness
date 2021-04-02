@@ -47,7 +47,16 @@
                 </a>
             </div>
         </div>
+        <div class="col-sm-6 nutritionGuides">
+        {% for NutGu in guides %}
+        <p class="title">{{ NutGu.title }}</p>
+        <p class="desc">{{ NutGu.description }}</p>
+        <p class="price">£{{ NutGu.price }}</p> 
+        <button class="addToCart">Add To Cart</button>
+        {% endfor %}
+            
     </div>
-
+    </div>
+    
 </div>
 {% endblock %}
