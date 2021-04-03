@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'sam',
     'heather',
     'guide',
+    'faq',
 ]
 
 MIDDLEWARE = [

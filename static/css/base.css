@@ -421,7 +421,12 @@ ul{ /*-- removes bullet point list --*/
     margin-bottom: 20px;
 }
 
-/*-- for medium and small screens!  FOR THE WHAT TO EXPECT SECTION--*/
+.buttonRow{
+    margin: auto;
+    justify-content: center;
+}
+
+/*-- for medium and small screens!  FOR MEET THE TRAINERS--*/
 @media only screen and (max-width: 768px) {
     .workoutWith{ /*-- heading --*/
     font-family: 'Montserrat', sans-serif;
@@ -600,3 +605,81 @@ ul{ /*-- removes bullet point list --*/
     margin-bottom: 30px;
 }
 }
+
+ /*-- FAQ PAGE --*/
+
+ .faq{  /*-- edits header --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #001f38;
+    text-decoration: underline;
+    margin: auto;
+    text-transform: uppercase;
+ }
+
+ .aboutFaq{ /*-- edits about faq  --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;    
+ }
+
+ .question { /*-- edits questions --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+}
+
+ .answer{ /*-- edits answers --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+ }
+
+ /*-- for medium and small screens!  FOR THE FAQ PAGE--*/
+@media only screen and (max-width: 768px) {
+     .faq{  /*-- edits header --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #001f38;
+    text-decoration: underline;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
+ .aboutFaq{ /*-- edits about faq  --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;    
+ }
+
+ .question { /*-- edits questions --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+}
+
+ .answer{ /*-- edits answers --*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #001f38;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+ }
+}
+
+

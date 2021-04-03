@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="row container-fluid sectionRow">
+    <p class="faq">Frequently Asked Questions</p>
+    <p class="aboutFaq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, assumenda! Tempora eum
+        fugiat saepe debitis temporibus nisi officia voluptate. Provident, culpa ipsam facere nemo repellat nisi id
+        magnam recusandae alias?</p>
+</div>
+<section>
+    <div class="row sectionRow">
+        <div class="col FAQ">
+        {% for Q in Qu %}
+        <p class="question">Q. {{ Q.question }}</p>
+        <p class="answer">{{ Q.answer }}</p>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}
