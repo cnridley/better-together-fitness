@@ -551,6 +551,10 @@ ul{ /*-- removes bullet point list --*/
 
 /*-- for medium and small screens!  FOR THE NUTRITION GUIDES SECTION--*/
 @media only screen and (max-width: 768px) {
+    .nutritionGuides{ /*-- eddit the nutritions guides col --*/
+    margin-bottom: 15px;
+    padding: 25px;
+}
     .CarouselImage { /*-- images --*/
     width: 100%;
     height: 400px;
