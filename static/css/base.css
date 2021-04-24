@@ -686,4 +686,24 @@ ul{ /*-- removes bullet point list --*/
  }
 }
 
+/*-- CART PAGE --*/
 
+.EmptyBag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #001f38;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.continueShopping {
+    background-color: #00c5e8;
+    color: white;
+    border: 2px #001f38 solid; 
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+}

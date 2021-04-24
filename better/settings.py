@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'heather',
     'guide',
     'faq',
+    'bag',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="row container-fluid sectionRow">
+    <p class="guides">Cart</p>
+</div>
+
+<div class="row container-fluid sectionRow emptyCart">
+    {% if bag_items %}
+        <table>
+
+        </table>
+    {% else %}
+<div class="row container-fluid m-auto sectionRow">
+    <p class="EmptyBag">Your cart is empty!</p>
+</div>
+<div class="row sectionRow buttonRow">
+    <a href="{% url 'guide' %}"><button class="continueShopping">Continue shopping</button></a>
+    {% endif %}
+</div>
+</div>
+
+
+{% endblock %}
