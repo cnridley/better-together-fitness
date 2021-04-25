@@ -31,10 +31,20 @@
     <p class="EmptyBag">Your cart is empty!</p>
   </div>
   <div class="row sectionRow buttonRow">
-    <a href="{% url 'guide' %}"
-      ><button class="continueShopping">Continue shopping</button></a
-    >
+    <a href="{% url 'guide' %}">
+      <button class="continueShopping">Continue shopping</button>
+    </a>
     {% endif %}
+  </div>
+  <div class="row sectionRow">
+    <a href="{% url 'guide' %}">
+      <button class="continueShopping">Continue shopping</button>
+    </a>
+  </div>
+  <div class="row sectionRow">
+    <a href="#">
+      <button class="continueShopping">Checkout</button>
+    </a>
   </div>
 </div>
 
