@@ -22,3 +22,12 @@ def add_guides_to_bag(request, item_id):
     request.session['bag'] = bag
     print(request.session['bag'])
     return redirect(redirect_url) 
+
+def remove_guides_from_bag(request, item_id):
+    """Remove the guides from shopping bag."""
+    bag = request.session.get('bag', {})
+    bag.pop(item_id)
+
+    request.session['bag'] = bag
+
+    return redirect(redirect_url) 
